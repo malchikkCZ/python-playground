@@ -1,0 +1,12 @@
+# this is sample of settings to use with pydrive package
+
+client_config_backend: settings
+client_config:
+  client_id:                 # your client id
+  client_secret:             # your client secret
+save_credentials: True
+save_credentials_backend: file
+save_credentials_file: credentials.json
+get_refresh_token: True
+oauth_scope:
+  - https://www.googleapis.com/auth/drive.file
